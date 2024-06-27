@@ -1,0 +1,35 @@
+funçaõ print (escreve o que quer que seja printado dentro dos parenteses."exemplo") sem o "" não vai dar certo,
+esses pedaços de texto na lingua de programação é chamado de string "" mostra o começo e o fim dessa string 
+print("hello world!")
+print ("1. Mix 500g of Flour, 10g Yeast and 300ml Water in a bowl.")
+print ("2. Knead the dough for 10 minutes.")
+print("3. Add 3g of Salt.")
+print("4. Leave to rise for 2 hours.")
+print("5. Bake at 200 degrees C for 30 minutes.")
+
+para print com "" no meio da mensagem é necessario alternar o uso de "" para '' assim podemos escrever a string dentro do parametro 'essa é uma "string"'
+outra alternativa é utilizar o chamado \"helo\" isso vai fazer o computador ignorar as aspas que estão na frente dele e não vai ser considerdo código.
+Então os metodos que temos são 1 alternar, usando uma aspas simples dentro de uma aspas duplas e vice versa ou usar o metodo da barra invertida (alt+92)que vai ignorar a letra a seguir
+print("A 'single quote' inside a double quote")
+print('A "double quote" inside a single quote')
+print("Alternatively you can just \"escape\" the quote")
+
+para evitar a repetição do comando print  podemos utilizar o \n para indicar que o que vem a seguir vai ser exibido na proxima linha 
+print("hello world! \nhello world!")
+
+é possivel combinar string simplesmente usando um simbolo +
+print("hello" + "usuário")
+
+essa forma as duas string ficarão juntas sem nehum espaço entre elas então é necessario utilizar espaço em algum lugar na frase ou até mesmo continuar concatenando a string
+print("hello" +" "+ "usuário")
+
+INDENTAÇÃO É EXTREMAMENTE IMPORTANTE EM PYTHON
+
+
+INPUTS
+
+a função input permite que o usuario adiciona dados ao código 
+input("um pedido para o usuario")
+
+depois que o usuario adicionar os dados poderemos usar esses dados em nosso codigo
+print("Hello " + input("what is you name?"))
