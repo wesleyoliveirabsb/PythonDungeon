@@ -19,9 +19,9 @@
 #print('e.g. print("Hello " + "world")')
 #print("New lines can be created with a backslash and n.")
 
-#print("Hello " + input("what is you name?"))
+print("Hello " + input("what is you name?"))
 
-#len signigica lenght e ele calcula o tamanho da proxima string
+len signigica lenght e ele calcula o tamanho da proxima string
 name = input()
 nameLen = len(name)
 
