@@ -33,3 +33,9 @@ input("um pedido para o usuario")
 
 depois que o usuario adicionar os dados poderemos usar esses dados em nosso codigo
 print("Hello " + input("what is you name?"))
+
+para comentar no codigo em python é só adicionar o #na frente da linha  
+
+
+VARIÁVEIS
+
